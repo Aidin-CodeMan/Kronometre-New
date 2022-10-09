@@ -15,12 +15,12 @@ window.onload = function () {
     durdurmaButonu.onclick = function () {
         
         if(x == 0){
-        durdurmaButonu.innerHTML = 'Devam';
+        durdurmaButonu.innerHTML = 'Dur';
         clearInterval(Interval);
         Interval = setInterval(zamaniBaslat, 10);
         x = 1;
         }else{
-            durdurmaButonu.innerHTML = 'Dur';
+            durdurmaButonu.innerHTML = 'Devam';
             clearInterval(Interval);
         
             x = 0;
